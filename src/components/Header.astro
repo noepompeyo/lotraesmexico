@@ -1,0 +1,45 @@
+---
+import '../styles/global.css';
+import bolso from '../assets/azul.jpg';
+import logowhat from '../assets/whatsapp.png'
+import beige from '../assets/beige.jpg'
+import pazul from '../assets/pazul.jpg'
+import azul2 from '../assets/azul2.jpg'
+---
+
+<section class=" mt-8 ">
+    <div class="grid  sm:grid-cols-2  gap-4 p-4  mx-auto max-w-6xl">
+
+        <div class="col-span-1 row-span-2 flex  items-center justify-center"> 
+            <section>
+                <div class="flex flex-col place-items-center  h-full">
+                    <h1 class="font-bold  tracking-tight text-4xl ">Coleccion de bolsos </h1>
+                    <p class="text-lg  mt-4 text-gray-500">Bolsos de mano incluyen una pashmina </p>
+                    <!--aqui va a ir el preicio a mostrar -->
+                    <p class="text-lg font-bold mt-4 text-red-400">Precio: $ 90 / pza</p>
+                    <p class="text-lg font-bold mt-4 text-red-400">Descuentos a partir de la  2° Pieza </p>
+                    <a href="https://wa.me/527461217034?text=Quiero%20hacer%20un%20pedido" target="_blank" class="flex items-center justify-center m-4 bg-blue-400 font-bold text-md p-2  rounded-md px-8 py-3 text-white   hover:scale-105 transition-transform">Hacer pedido
+                    <img src={logowhat.src} alt="logo de whatsapp" class=" w-4 h-4 ml-2"></a>
+                </section>
+
+        </div>
+        <div class="grid place-items-center grid-cols-4 grid-rows-4 gap-2 h full  p-2">
+                    <div class="  col-span-2 row-span-2">
+                        <img src={beige.src} alt="" class=" rounded-2xl">
+                    </div>
+                    <div class="col-span-2  row-span-4 col-start-3 row-start-1 ">
+                        <img src={pazul.src} alt="" class=" object-cover  rounded-2xl">
+                    </div>
+                    <div class="col-span-2 row-span-2">
+                        <img src={azul2.src} alt="" class="  rounded-2xl">
+                    </div>
+                </div>
+        <!-- <div class=" row-span-2 col-start-2 "> -->
+            <!-- <img src={bolso.src} alt="Logo de Lotraes México" class="w-full h-full object-cover rounded-4xl " /> -->
+        <!-- </div> -->
+    </div>
+
+</section>
+
+  
+ 
